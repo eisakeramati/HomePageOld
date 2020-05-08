@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html>
+    <head>
+            <title>Eisa - Student</title>
+            <link rel="stylesheet" type="text/css" href="CSS/style.css">
+            <link rel="icon" href="favicon.ico">
+            <link href="https://fonts.googleapis.com/css2?family=Bangers&family=Fjalla+One&family=Jost:wght@300&family=Krona+One&family=Mukta:wght@200&family=Press+Start+2P&display=swap" rel="stylesheet">
+            <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+            <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+            <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+            <script>
+                addEventListener("load",() => {
+                    var index = 0;
+                    const slides = document.querySelectorAll(".slides");
+                    const classHide = "slides-hidden", count = slides.length;
+                    nextSlide();
+                    function nextSlide() {
+                        slides[(index ++) % count].classList.add(classHide);
+                        slides[index % count].classList.remove(classHide);
+                        setTimeout(nextSlide, 1000);
+                    }
+                });
+            </script>
+    </head>
+    <body>
+      <nav class="navbar navbar-expand-lg navbar-light" id="idd">
+      <a class="navbar-brand" href="#"><img src="fff.png" alt="him" style="border-radius:50%; width:15%; background-color: #4d3e3e; "></a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item active" id="idd">
+            <a class="nav-link" href="#1">Intro</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#2">Time-line</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#3">Skills</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link disabled" href="#4">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+        <div class="top">
+        </div>
+        <div id="div_top">
+          <div id="div_top_box">
+            <div style="margin-top:100px;">
+              <h1 id="text1" >I'm Eisa</h1>
+              <h3 id="text2">student by day, programmer by night!</h3>
+              <img class="slides slides-hidden" src="f9.png" alt="him">
+              <img class="slides slides-hidden" src="f15.png" alt="him">
+              <img class="slidess slides-hidden" src="f11.png" alt="him">
+            </div>
+          </div>
+        </div>
+        <div class="grid-container" id="1">
+            <div class="frame">
+              <img src="eisa2.jpg" alt="him" class="img-thumbnail" style=" margin:auto;">
+            </div>
+            <div class="arr">
+            </div>
+            <div class="intro">
+              <h3>A little bit of Introduction about myself!</h3>
+              <br>
+              <br>
+              <p>
+              I started my post-secondary studies in 2016 at <a href="https://ceit.aut.ac.ir/autcms/home.htm?depurl=computer-engineering&lang=en">Computer Engineering</a> at <a href="https://aut.ac.ir/en">Amirkabir University</a>.
+              then at 2019,
+              <br>
+              I moved to Canada and started studying Computer Science at <a href="https://www.ryerson.ca/">Ryerson University</a>. I had the opportunity of to be the teaching assistant to two of my favorite courses.
+              <br>
+              I was born in March 1998. I grew up in Tehran. I went to highschool in fall 2012 and graduated, summer 2016.
+              <p>My Interests ranges from software development to Artificial Intelligence in recommender systems and social networks.</p>
+              </p>
+            </div>
+        </div>
+        <div class="grid-container" style="background-color: #ffc38b;" id="2">
+          <div class="sch1">
+          <img src="box.png" alt="him" style="width:5%; display:inline-block; margin-top:-13px; margin-left:50px;">
+          <p style="display:inline-block;"><span id="date">  2016 - 2019</span><p>
+          <div class="sch1-text">
+            <p id=""> I started my post-secondary studies at Amirkabir University of Technology.</p>
+            <p>I studied Computer Engineering at AUT-CEIT department.</p>
+            <p>I was <b>VP Academic</b> for <a href="https://ceit-ssc.ir/en/home-english/">CEIT SSC</a> (Our program's Course Union) from 2018-2019.</p>
+            <p>Examples of our achievements: The Linux Festival, AUT-ICPC Programming contest, </p>
+            <p>AUT Data Mining Contest.</p>
+            <p>My final GPA: <b>17.85/20</b></p>
+            <p>I Also had the chance to be the teaching assistant for two of my favorite courses</p>
+            <p>(2018-2019):</p>
+            <p><b>Linear Algebra</b> and <b>Artificial Intelligence 1</b>.</p>
+          </div>
+          </div>
+          <div class="sch1-pic">
+            <img src="school1.png" alt="him" style="width:55%; display:inline-block; padding-top: 70px;">
+          </div>
+        </div>
+        <div class="grid-container" style="background-color: #ffc38b; padding-top: 0px;">
+          <div class="sch2">
+          <img src="box.png" alt="him" style="width:5%; display:inline-block; margin-top:-13px; margin-left:-50px;">
+          <p style="display:inline-block;"><span id="date">  2019 - present</span><p>
+          <div class="sch2-text">
+            <p id=""> I Continued my undergraduate studies at Ryerson University in Toronto.</p>
+            <p>I studied Computer Science and joined Ryerson Science.</p>
+            <p>I am the <b>VP External</b> for <a href="https://ceit-ssc.ir/en/home-english/">Ryerson Science Society (RSS)</a> at 2020.</p>
+            <p>We try our best to enrich the undergraduate experience for Science students</p>
+            <p>Networking Events, Job shadowing and professional workshops.</p>
+            <p>My GPA: <b>4.17</b></p>
+          </div>
+          </div>
+          <div class="sch2-pic">
+            <img src="school2.png" alt="him" style="width:45%; display:inline-block; padding-top: 10px;">
+          </div>
+        </div>
+        <div class="grid-container" style="background-color: #ff926b;" style="width: 50%;" id="3">
+          <div class="sk1">
+            <img src="box2.png" alt="him" style="width:3%; display:inline-block; margin-top:-7px; ">
+            <p style="display:inline-block;"><span id="skill1"> General Programming languages:</span><p>
+            <div class="sk1-text">
+              <div>
+                <p class="skill-item">Python:</p>
+                <div class="fix">
+                  <img src="5g.png" class="" alt="him" style="width:23%; margin-left:-27px;">
+                </div>
+              </div>
+              <div>
+                <p class="skill-item">Java:</p>
+                <div class="fix">
+                  <img src="5g.png" class="" alt="him" style="width:23%;">
+                </div>
+              </div>
+              <div>
+                <p class="skill-item">C/C++:</p>
+                <div class="fix">
+                  <img src="4g.png" class="" alt="him" style="width:18%; margin-left:-33px;">
+                </div>
+              </div>
+              <div>
+                <p class="skill-item">Matlab:</p>
+                <div class="fix">
+                  <img src="5g.png" class="" alt="him" style="width:23%; margin-left:-25px;">
+                </div>
+              </div>
+              <div>
+                <p class="skill-item">SmallTalk:</p>
+                <div class="fix">
+                  <img src="5g.png" class="" alt="him" style="width:23%; margin-left:-45px;">
+                </div>
+              </div>
+              <div>
+                <p class="skill-item">Elixir:</p>
+                <div class="fix">
+                  <img src="5g.png" class="" alt="him" style="width:23%; margin-left:-7px;">
+                </div>
+              </div>
+              <div>
+                <p class="skill-item">Haskell:</p>
+                <div class="fix">
+                  <img src="4g.png" class="" alt="him" style="width:18%; margin-left:-29px;">
+                </div>
+              </div>
+              <div>
+                <p class="skill-item">Rust:</p>
+                <div class="fix">
+                  <img src="4g.png" class="" alt="him" style="width:18%;">
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="sk2">
+            <img src="box2.png" alt="him" style="width:3%; display:inline-block; margin-top:-7px; ">
+            <p style="display:inline-block;"><span id="skill1"> Web Dev Programming languages:</span><p>
+            <div class="sk1-text">
+              <div>
+                <p class="skill-item">HTML/CSS:</p>
+                <div class="fix">
+                  <img src="5b.png" class="" alt="him" style="width:23%; margin-left:-66px;">
+                </div>
+              </div>
+              <div>
+                <p class="skill-item">Javascript:</p>
+                <div class="fix">
+                  <img src="3b.png" class="" alt="him" style="width:13%; margin-left:-45px;">
+                </div>
+              </div>
+              <div>
+                <p class="skill-item">SQL:</p>
+                <div class="fix">
+                  <img src="5b.png" class="" alt="him" style="width:23%; margin-left:1px;">
+                </div>
+              </div>
+              <div>
+                <p class="skill-item">PHP:</p>
+                <div class="fix">
+                  <img src="4b.png" class="" alt="him" style="width:18%; margin-left:2px;">
+                </div>
+              </div>
+              <div>
+                <p class="skill-item">Perl:</p>
+                <div class="fix">
+                  <img src="4b.png" class="" alt="him" style="width:18%; margin-left: 7px;">
+                </div>
+              </div>
+              <div>
+                <p class="skill-item">Ruby:</p>
+                <div class="fix">
+                  <img src="4b.png" class="" alt="him" style="width:18%; margin-left:-3px;">
+                </div>
+              </div>
+              <div>
+                <p class="skill-item">ASP:</p>
+                <div class="fix">
+                  <img src="3b.png" class="" alt="him" style="width:14%; margin-left:4px;">
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="contact" id="4">
+          <div class="left">
+            <div class="" style="padding-bottom:50px;">
+            <p>Please feel free to contact me. I'm active on <a href="https://www.linkedin.com/in/eisa-keramati-nejad-08990516b/"> LinkedIn </a> and Put all my projects</p>
+            <p>on my <a href="https://github.com/eisakeramati"> GitHub page</a>. May the force be with you!</p>
+          </div>
+            <img src="f20.png" class="pic_bot" alt="him" style="">
+          </div>
+          <div class="con right">
+            <form action="mailto:eisa.keramati@gmail.com">
+              <label for="fname">Name</label>
+              <input type="text" id="fname" name="firstname">
+              <label for="lname">Email</label>
+              <input type="text" id="lname" name="lastname">
+              <label for="subject">Subject</label>
+              <textarea id="subject" name="subject" placeholder="Write something..." style="height:200px"></textarea>
+
+              <input type="submit" value="Submit">
+            </form>
+          </div>
+        </div>
+    </body>
+</html>
