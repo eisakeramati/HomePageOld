@@ -300,3 +300,7 @@ input[type=submit]:hover {
 label {
   font-family: 'Jost', sans-serif;
 }
+
+.nav-item {
+  padding: 0 15px;
+}
